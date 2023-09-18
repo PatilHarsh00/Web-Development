@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        width: 500px;
+        height: 500px;
+        background-color: aqua;
+    }
+
+    .box{
+        background-color: black;
+        width: 100px;
+        height: 100px;
+    }
+
+    .box:hover{
+        animation-name: animation1;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes animation1{
+        0%{
+            background-color: black;
+            transform: translate(0px,0px);
+        }
+
+        25%{
+            background-color: red;
+            transform: translate(400px,0px);
+        }
+        50%{
+            background-color: yellow;
+            transform: translate(400px,400px);
+        }
+        75%{
+            background-color: blueviolet;
+            transform: translate(0px,400px);
+        }
+        100%{
+            background-color: black;
+            transform: translate(0px,0px);
+        }
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+</html>

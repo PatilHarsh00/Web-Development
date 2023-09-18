@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .hover-button{
+        background-color: blue;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        font-size: 13px;
+    }
+
+    .hover-button:hover{
+        background-color: red;
+        /* transition: background-color 1.5s ease-in-out, font-size 3s ease-in-out; */
+        transition: all 2s ease-in-out;
+        /* font-size: 25px; */
+
+        /* transform: translateX(50px) translateY(30px); */
+        transform: translate(50px,30px) scale(1.5) rotateY(360deg);
+        /* scale: 1.5; */
+        /* rotate: 45deg; */
+    }
+</style>
+<body>
+    <button class="hover-button">Hover me</button>
+</body>
+</html>
