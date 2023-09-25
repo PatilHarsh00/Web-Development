@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: red;
+}
+h1:hover {
+  color: blue;
+}
+
+.operator {
+  font-size: 40px;
+  color: green;
+  font-family: Arial, sans-serif;
+}
+
+.nestingouter {
+  background-color: red;
+}
+.nestingouter a {
+  color: yellow;
+  font-size: 30px;
+}
+.nestingouter .nestinginnerp {
+  color: blue;
+}/*# sourceMappingURL=mystyle.css.map */
